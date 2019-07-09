@@ -1,0 +1,172 @@
+{
+    "ratings": [
+        {
+            "Rating": {
+                "venue_id": 1,
+                "score": 5,
+                "review": "This is a cool venue. One of Austin's best, imo. I like to stand at the very front of the elevated viewing area for the outdoor performances -- unimpeded view, little ledge for your drink. (Amazingly, I've only been here in moderate temperatures. In the summer, the outdoor stage and viewing would be sweltering.)"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 1,
+                "score": 5,
+                "review": "I love Mohawk so much. It's one of the best live music venues in Austin. The double-decker balcony along with the floor area gives everyone an option for their comfort level. The bar staff is friendly upstairs and down. Lots of bevvies to choose from, and they are all proper pours."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 1,
+                "score": 4,
+                "review": "Really cool high tier venue. If you plan on having a casual experience seeing a popular band, make sure to get to the second floor. The pit got way too out of hand when I went for the Pup show. I love a good pit, but this is an awful venue for that. The bar is good, and most of the show tickets are affordable."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 1,
+                "score": 4,
+                "review": "Interesting layout for concert goers but effective.  Keeps Austin real as far as venues go. Gritty, grundgy, and fun.  It's a great place to check out up and coming acts as well as fringe genres."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 1,
+                "score": 5,
+                "review": "Great and everything exactly as you would expect. Picture perfect Austin concert venue/bar. So, so, so good."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 2,
+                "score": 4,
+                "review": "Great live music venue. No wheelchair access, however, having to climb two floors of stairs. Makes me wonder what their escape plan might be should anything happen. Good sound system and nice employees. Had a great time at the Paul Gilbert show and will certainly come back."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 2,
+                "score": 4,
+                "review": "It's nice being able to get so close to the stage but it does get a little warm."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 2,
+                "score": 5,
+                "review": "How have I not seen a show here before? The bartenders are awesome and the sound was fantastic! Highly recommend this venue."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 3,
+                "score": 4,
+                "review": "It was Awesome!! Very kid friendly let us use the bathroom before they were open...good people great show!!"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 3,
+                "score": 3,
+                "review": "Julia was amazing, but the sound from the band playing in the other room was a distraction to say the least."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 3,
+                "score": 3,
+                "review": "Great music but their drinks are the most ridiculously expensive I've ever seen at a place like this. Seriously. Why?"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 3,
+                "score": 5,
+                "review": "Barracuda easily has the highest frequency of fantastic artists come through, with some of the best priced tickets in Austin. This is my favorite small venue."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 3,
+                "score": 4,
+                "review": "Although the ticket says all ages, but they try to push 18 and up. It's fine, but it was a hassle with a 17 year old and a show we've been waiting for for months."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 4,
+                "score": 4,
+                "review": "Nice place, good music, but I wish they would stop blinding the audience and shine light on the musicians instead."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 4,
+                "score": 5,
+                "review": "Such an awesome venue! Outdoor area to cool down. Cool place!"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 4,
+                "score": 5,
+                "review": "Great venue with lots of room and great sounds system."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 5,
+                "score": 5,
+                "review": "This outdoor venue has been so comfy every time I’ve attended concerts there. The smell of delicious BBQ is a bonus. The conveniently placed bars are excellent too! I wish the restrooms were indoors and not a line of port a potties but alas, we can’t win ‘em all. We had an excellent time at this week’s concert."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 5,
+                "score": 5,
+                "review": "Although it's the outdoor music venue is subject to the weather, I've seen some great shows here. It's not too big, not too small. Can be tight if the show is sold-out...but overall, it's a pretty good venue. And they often book great bands."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 6,
+                "score": 5,
+                "review": "This place is very lively and we had a lot of fun here! Can get a bit crowded but everyone is very respectful and friendly. Would recommend if you are looking for some great music to hear!"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id" : 6,
+                "score": 4,
+                "review": "Small and very intimate music club.  Hard drinks and lively bartenders.  Seating is available.  Mostly standing room."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 6,
+                "score": 5,
+                "review": "Amazing music venue. Has a really great vibe.  Cozy and intimate. Great cocktails."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 7,
+                "score": 4,
+                "review": "The venue was great and the sound was fantastic, but the parking situation wasn't ideal. Would recommend catching a Lyft :)"
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 8,
+                "score": 3,
+                "review": "Great place. Close and personal."
+            }
+        },
+        {
+            "Rating": {
+                "venue_id": 9,
+                "score": 4,
+                "review": "It's a nice music venue but it gets really hot in there when it's at capacity. The sound is great drinks are good for the price."
+            }
+        }
+    ]
+}

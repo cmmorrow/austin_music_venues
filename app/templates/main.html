@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Austin Music Venues</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="my-4">Austin Music Venues</h1>
+            {% for venue in venues %}
+                <div class="row">
+                    <div class="col-md-7">
+                        <img class="img-fluid rounded mb-3 mb-md-0" src={{ venue.image_url }} alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <h3>{{ venue.name }}</h3>
+                        {% if venue.rating %}
+                        <h5>{{ '{:.2f}'.format(venue.rating|float) }} / 5.00</h4>
+                        {% else %}
+                        <h5> 0.00 / 5.00</h5>
+                        {% endif %}
+                        <p>{{ venue.street }}<br>{{ venue.city }}, {{ venue.state }} {{ venue.zip }}</p>
+                        {% if venue.closed %}
+                            <p style="font-weight: bold; color: red; font-size: larger">CLOSED</p>
+                        {% endif %}
+                        <p>{{ venue.description }}</p>
+                        <a class="btn btn-primary" href="{{ host }}ratings/{{ venue.id }}">Reviews</a>
+                    </div>
+                </div>
+            <hr>
+            {% endfor %}
+        </div>
+    </body>
+</html>

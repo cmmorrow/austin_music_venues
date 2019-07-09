@@ -1,0 +1,163 @@
+{
+    "venues": [
+        {
+            "Venue": {
+                "name": "Mohawk",
+                "image_url": "https://www.mohawkaustin.com/files/2018/12/storyhead.jpg",
+                "description": "Handmade in downtown Austin, Mohawk was built in 2006 as a one of a kind live music venue and bar. Our mission is to host friends, musicians, and staff that represent a wide variety of musical tastes and walks of life. All Are Welcome at Mohawk.",
+                "Address": {
+                    "street": "912 Red River St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Parish",
+                "image_url": "https://www.theparishaustin.com/wp-content/uploads/2017/05/bg7.jpg",
+                "description": "The Parish is a haven where sound is sacred. A roof under which no genre is discriminated and no one is the black sheep. Before the moon nestles at the top of the sky, we relish in an assortment of comedy, burlesque, and guitar-driven magic from straight rock ‘n roll to bluegrass, jazz, and the newest indie rock darlings on the scene.",
+                "Address": {
+                    "street": "214 E 6th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Barracuda",
+                "description": "A staple of the Red River Cultural District with both indoor and outdoor stages.",
+                "image_url": "https://static.spacecrafted.com/ef573629e0a64c34983591881f62d5ab/i/adf67d7f8da34ad8bfd0b0f3fb80fdb1/1/GCuCv726gZycFxatR9d99n/spanishoakphotography_calliopemusicals.jpg?dpr=2",
+                "Address": {
+                    "street": "611 E 7th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Empire Control Room and Garage",
+                "description": "Empire is a 15,000 square foot modern music space at 7th and Red River, dedicated to presenting quirky, warehouse style events that feel more like adventurous discoveries than everyday affairs.",
+                "image_url": "https://i1.wp.com/empireatx.com/wp-content/uploads/2015/11/empire-control-room-garage-venue-7.jpg?w=1150",
+                "Address": {
+                    "street": "606 E 7th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Stubb's BBQ",
+                "image_url": "https://static.spacecrafted.com/ea6b4b082b03464b992a7aa7ffaff95d/i/e4cac435a4c94458ae5fbf1aedc982e2/1/4SoifmQpDrHbZJ6W2ZLJ8/STUBBS-TECHPACK-53.jpg?dpr=2",
+                "description": "In the 1970′s, Stubb’s restaurant became the heart of an explosive music scene. Stubbs was ground zero for musicians like Joe Ely and Stevie Ray Vaughn. Other famous musicians who would “play for their supper” included Muddy Waters, John Lee Hooker, Willie Nelson, Johnny Cash, Robert Cray, George Thorogood, Clarence “Gatemouth” Brown, Linda Ronstadt and the Fabulous Thunderbirds.",
+                "Address": {
+                    "street": "801 Red River St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "The Continental Club",
+                "image_url": "https://static1.squarespace.com/static/5458172de4b010408a819b69/t/5697eca1a976afebc4c01a24/1452797099733/CCsign.jpg",
+                "description": "The granddaddy of live music venues, the Continental Club has enjoyed a coast-to-coast and worldwide reputation as the premiere club for live music in Austin since 1955 and in Houston since 2000.",
+                "Address": {
+                    "street": "1315 S Congress Ave",
+                    "zip": "78704"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Emo's",
+                "image_url": "https://static.spacecrafted.com/d0ff1849232e40769aef8fe7be7d853d/i/dee61aad9a52408abded3b7f0492bab4/2/GCuCv726gZycFxatknDdac/EMOS-RELAUNCH2019-11-Resized.jpg",
+                "description": "Emo's, formerly known as The Back Room, is a music and event venue located in Austin, Texas.",
+                "Address": {
+                    "street": "2015 E Riverside Dr",
+                    "zip": "78741"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "3Ten ACL Live",
+                "image_url": "https://cdn.vox-cdn.com/thumbor/pnTR_BK5gv2oMlR-oO-fVVVwCjA=/0x0:5557x3434/1720x0/filters:focal(0x0:5557x3434):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/7871823/Stage.jpg",
+                "description": "Located next door to the ACL Live Box Office in downtown Austin, 3TEN is a 350-person capacity state-of-the-art showcase room presenting smaller “house” shows of world-renowned, emerging, and local artists, as well as custom private event experiences.",
+                "Address": {
+                    "street": "310 W Willie Nelson Blvd #1B",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Antone's Nightclub",
+                "image_url": "https://www.antonesnightclub.com/files/2017/03/LouGaryJimmie-07848-800x533.jpg",
+                "description": "Past playground for Stevie Ray Vaughan & other music legends still thriving after nearly 40 years.",
+                "Address": {
+                    "street": "305 E 5th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "La Zona Rosa",
+                "image_url": "http://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1524671730/photos/30357_original.jpg",
+                "description": "Sitting on the edge of downtown's old Warehouse District is one of Austin's most eclectic venues, hosting a plethora of big-name local and national acts on one of their two stages, both with superior technical equipment and capacity for up to 1,200 fans. There are two full-service bars, and table-tennis tourneys have been known to break out in the venue's \"rumpus room.\"",
+                "closed": true,
+                "Address": {
+                    "street": "612 W. 4th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Red 7",
+                "image_url": "http://www.djoybeat.com/wp-content/uploads/2013/03/red7-austin1.jpg",
+                "description": "Intimate performance space with indoor & outdoor stages plus full bar.",
+                "closed": true,
+                "Address": {
+                    "street": "611 E 7th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Antone's Nightclub",
+                "image_url": "https://static.toiimg.com/photo/44857879/.jpg",
+                "description": "Past playground for Stevie Ray Vaughan & other music legends still thriving after nearly 40 years.",
+                "closed": true,
+                "Address": {
+                    "street": "213 West 5th St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Liberty Lunch",
+                "image_url": "https://i1.wp.com/www.michaelcorcoran.net/wp-content/uploads/2014/08/Liberty_Lunch_Parrot.jpg",
+                "description": "Liberty Lunch was a live-music venue at 405 W. 2nd Street in Austin, Texas. It was rumored to have been called Liberty Lunch in the 1940s as an eatery, perhaps reflecting the World War II Liberty Bonds and patriotic sentiment.",
+                "closed": true,
+                "Address": {
+                    "street": "405 West 2nd St",
+                    "zip": "78701"
+                }
+            }
+        },
+        {
+            "Venue": {
+                "name": "Emo's",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/d4_-3kKI-IG1--da3m1wPg/o.jpg",
+                "description": "Historic Austin punk club opening in 1992 on 6th and Red River.",
+                "closed": true,
+                "Address": {
+                    "street": "603 Red River St",
+                    "zip": "78701"
+                }
+            }
+        }
+    ]
+}
