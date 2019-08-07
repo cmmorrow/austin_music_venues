@@ -43,6 +43,8 @@ class Venue(db.Model):
         """Generate a list of Venues pulled from the database.
 
         :param limit: The maximum number of Venue objects to return.
+        :return: A list of Venue objects representing all the venues in the 
+        database.
         """
         venues = db.session.query(
             Venue.id,
@@ -120,6 +122,8 @@ class Rating(db.Model):
         """Generate a list of Ratings pulled from the database.
 
         :param venue_id: The venue_id for the corresponding Ratings.
+        :return: A list of Rating objects representing all the 
+        ratings for a particular venue in the database.
         """
         ratings = db.session.query(
             Rating,
@@ -142,25 +146,26 @@ class Rating(db.Model):
 
 
 @app.route('/', methods=['GET'])
-def main():
+def main() -> str:
     """Render the main page."""
     host = request.host_url
     return render_template('main.html', venues=Venue.get_venues(), host=host)
 
 
 @app.route('/ratings/<venue_id>', methods=['GET'])
-def venue_ratings(venue_id: str):
+def venue_ratings(venue_id: str) -> str:
     """Render the ratings page."""
     ratings = Rating.get_ratings(int(venue_id))
-    try:
+    if ratings:
         venue = ratings[0].rated_venue.name
-    except IndexError:
-        venue = db.session.query(Venue).get(venue_id).name
+    else:
+        res = db.session.query(Venue).get(venue_id)
+        venue = res.name if res else ''
     return render_template('reviews.html', ratings=ratings, venue=venue)
 
 
 @app.route('/add/venue', methods=['POST'])
-def add_venue():
+def add_venue() -> str:
     """Add a new Venue to the database."""
     payload: dict = request.json
     _venue = payload.get('Venue')
@@ -184,50 +189,50 @@ def add_venue():
     )
     db.session.add(venue)
     db.session.commit()
-    return jsonify({'add': 'success'})
+    return jsonify({'add_venue': 'success'})
 
 
 @app.route('/add/rating', methods=['POST'])
-def add_rating():
+def add_rating() -> str:
     """Add a new Rating to the database."""
     payload: dict = request.json
     _rating = payload.get('Rating')
-    venue_id = _rating.get('venue_id')
-    score = _rating.get('score')
-    review = _rating.get('review')
-
-    rating = Rating(venue_id=venue_id, score=score, review=review)
+    rating = Rating(
+        venue_id=_rating.get('venue_id'),
+        score=_rating.get('score'),
+        review=_rating.get('review'),
+    )
     db.session.add(rating)
     db.session.commit()
-    return jsonify({'add': 'success'})
+    return jsonify({'add_rating': 'success'})
 
 
 @app.route('/update/closed', methods=['POST'])
-def set_closed():
+def set_closed() -> str:
     """Update the status of a Venue to "closed"."""
     payload: dict = request.json
     venue_id: str = payload['venue_id']
 
-    venue: Venue = db.session.query(Venue).get(venue_id)
+    venue = db.session.query(Venue).get(venue_id)
     venue.closed = True
     db.session.commit()
-    return jsonify({'update': 'success'})
+    return jsonify({'update_closed': 'success'})
 
 
 @app.route('/delete/venue', methods=['DELETE'])
-def delete_venue():
+def delete_venue() -> str:
     """Delete the Venue and attached Ratings associated with venue_id."""
     payload: dict = request.json
     venue_id: str = payload['venue_id']
 
-    venue: Venue = db.session.query(Venue).get(venue_id)
+    venue = db.session.query(Venue).get(venue_id)
     db.session.delete(venue)
     db.session.commit()
-    return jsonify({'delete': 'success'})
+    return jsonify({'delete_venue': 'success'})
 
 
 @app.route('/get/venues', methods=['GET'])
-def get_venues():
+def get_venues() -> str:
     """Retrieve a list of Venues from the database."""
     venues: List[Venue] = Venue.get_venues()
     output = {'venues': []}
@@ -248,7 +253,7 @@ def get_venues():
 
 
 @app.route('/get/ratings/<venue_id>', methods=['GET'])
-def get_ratings(venue_id: str):
+def get_ratings(venue_id: str) -> str:
     """Retrieve a list of Ratings from the database for a certain Venue."""
     ratings: List[Rating] = Rating.get_ratings(int(venue_id))
     output = {'ratings': []}
